@@ -4,6 +4,7 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
+        "preinstall": "echo Running preinstall script",
         "dev": "vite",
         "build": "tsc && vite build",
         "fix": "eslint \"./src/**/*.?(js|jsx|ts|tsx)\" --fix",
